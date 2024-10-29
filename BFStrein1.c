@@ -115,7 +115,7 @@ int main() {
     
     BFS(g, o, dist); // chama a funcao BFS
     
-    printf("\n\nDistancia do vertice 0 ao vertice 11: %d\n", dist[f]); // printa o resultado
+    printf("\n\nDistancia do vertice %d ao vertice %d: %d\n", o, f, dist[f]); // printa o resultado
 
     return 0;
 }
